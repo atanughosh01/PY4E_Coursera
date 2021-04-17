@@ -13,7 +13,7 @@ fname = input("Enter file name: ")  # prompting user for file name
 
 try:
     fhand = open(fname)  # opening the file chosen by user
-except FileNotFoundError:  # catching exception for not finding file
+except FileNotFoundError:  # catching exception if no such file is found
     print('File', fname, 'is not found')
     quit()
 
@@ -26,11 +26,13 @@ for line in fhand:
     if line.startswith("X-DSPAM-Confidence:"):
         print(line)
         pos = line.find('0.')  # finding position of the numeric substring
-        line = line[pos:].strip()  # separating the numeric substring from char type
+        # separating the numeric substring from char type
+        line = line[pos:].strip()
         value = float(line)  # converting the numeric substring to float type
         # calculating the average
         total += value
         count += 1
         average = total / count
 
+# displaying the final output
 print("Average spam confidence:", average)

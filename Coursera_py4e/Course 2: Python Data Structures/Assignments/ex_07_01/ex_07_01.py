@@ -8,6 +8,11 @@ You can download the sample data at http://www.py4e.com/code3/words.txt
 # Use words.txt as the file name
 fname = input("Enter file name: ")
 fname = fname.strip()
-fh = open(fname)
+try:
+    fh = open(fname)  # opening the file chosen by user
+except FileNotFoundError:  # catching exception if no such file is found
+    print('File', fname, 'is not found')
+    quit()
+
 inp = fh.read()
 print(inp.upper())

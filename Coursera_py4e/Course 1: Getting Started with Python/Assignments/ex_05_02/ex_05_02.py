@@ -18,7 +18,7 @@ while True:
         # convert inputs into floating point values
         fnum = float(num)
     except:
-        # printing ERROR message if input is non-numeric
+        # printing ERROR message for non-numeric inputs
         print('Invalid input')
 
     else:

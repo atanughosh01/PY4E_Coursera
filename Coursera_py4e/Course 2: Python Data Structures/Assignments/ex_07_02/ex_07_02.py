@@ -23,12 +23,15 @@ count = 0
 
 for line in fhand:
     line = line.strip()  # removing whitespaces and '/n'-s from both ends of string
+
+# finding the lines starting with 'X-DSPAM-Confidence:' and finding its ending position(s)
     if line.startswith("X-DSPAM-Confidence:"):
         print(line)
-        pos = line.find('0.')  # finding position of the numeric substring
+        pos = line.find(': ')  # finding position of the numeric substring
         # separating the numeric substring from char type
-        line = line[pos:].strip()
+        line = line[pos+1:].strip()
         value = float(line)  # converting the numeric substring to float type
+
         # calculating the average
         total += value
         count += 1

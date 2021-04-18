@@ -18,36 +18,25 @@ s = input('Enter a score between 0.0 & 1.0: ')
 # catching ERROR if input is non-numeric
 try:
     score = float(s)
-
 except:
     print('ERROR! Please enter numeric value')
     print('Exiting Program....')
     quit()
 
-# checking if input numerical value is within specified range
-if score <= 0.0:
+# conditional statements for collectig the correct input score
+if score <= 0.0 or score >= 1.0:
     print('ERROR! Input score is out of range')
     print('Exiting Program....')
-
-elif score >= 1.0:
-    print('ERROR! Input score is out of range')
-    print('Exiting Program....')
-
-else:
+else: 
     print('Input score is within range')
-
-    # assigning grades for given input score
+    # conditional statements for assigning grades
     if score >= 0.9:
         print('Acquired grade is A')
-
     elif score >= 0.8:
         print('Acquired grade is B')
-
     elif score >= 0.7:
         print('Acquired grade is C')
-
     elif score >= 0.6:
         print('Acquired grade is D')
-
     elif score < 0.6:
         print('Acquired grade is E')

@@ -7,7 +7,7 @@ Score   Grade
 >= 0.8   B
 >= 0.7   C
 >= 0.6   D
-< 0.6    F
+< 0.6    E
 If the user enters a value out of range, print a suitable error message and
 exit. For the test, enter a score of 0.85.
 """
@@ -27,7 +27,7 @@ except:
 if score <= 0.0 or score >= 1.0:
     print('ERROR! Input score is out of range')
     print('Exiting Program....')
-else: 
+else:
     print('Input score is within range')
     # conditional statements for assigning grades
     if score >= 0.9:

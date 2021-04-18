@@ -21,14 +21,15 @@ except FileNotFoundError:  # catching exception if no such file is found
 total = 0.0
 count = 0
 
-for line in fhand: # iteration variable 'line' traversing through lines in the file
+for line in fhand:  # iteration variable 'line' traversing through the texts in file
     line = line.strip()  # removing whitespaces and '/n'-s from both ends of string
 
 # finding the lines starting with 'X-DSPAM-Confidence:' and finding its ending position(s)
     if line.startswith("X-DSPAM-Confidence:"):
         print(line)
         pos = line.find(': ')  # finding ending position of the char substring
-        line = line[pos+1:].strip() # slicing the numeric substring from char substring
+        # slicing the numeric substring from char substring
+        line = line[pos+1:].strip()
         value = float(line)  # converting the numeric substring to float type
         # calculating the average
         total += value

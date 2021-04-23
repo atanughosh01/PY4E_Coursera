@@ -18,9 +18,9 @@ for line in fhand:                          # reads every line of the given file
     wordList = line.split()                 # splits the line into a list of words
     for element in wordList:                # checks every element in the word list
         if element in lst:                  # if any element is repeated
-            continue                        # do nothing
+            continue                        # does nothing
         else:                               # else if certain element is not present in the list
-            lst.append(element)             # append the element in the list
+            lst.append(element)             # appends the element in the list
 # de-indentation indicates that sorting is done when the loop ends
 lst.sort()                                  # sorts the list in alphabetical order of starting characters
 print(lst)                                  # prints the list

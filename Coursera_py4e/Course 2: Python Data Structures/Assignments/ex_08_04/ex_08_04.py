@@ -7,7 +7,7 @@ sort and print the resulting words in alphabetical order.
 You can download the sample data at http://www.py4e.com/code3/romeo.txt """
 
 fname = input("Enter file name: ")          # prompts user for file name
-try:
+try:                                        # tries to open the file
     fhand = open(fname)                     # opens the file chosen by user
 except FileNotFoundError:                   # catches exception if no such file is found
     print('File', fname, 'is not found')    # displays error message

@@ -1,5 +1,5 @@
 # implementation of Dictionary data structure
-
+print('-------------------------------------------------')
 # counts = {'atanu':1, 'x':2, 'abc':23}
 counts = dict()
 names = ['atanu', 'x', 'y', 'z']
@@ -18,5 +18,15 @@ print(list[counts])
 print(counts.keys())
 print(counts.values())
 print(counts.items())
+
+print('--------------------------------------------')
+
 for name in counts:
     print('Key =', name, 'value =', counts[name])
+
+print('--------------------------------------------')
+
+for alpha, beta in counts.items():
+    print('Key =', alpha, 'value =', beta)
+
+print('--------------------------------------------')

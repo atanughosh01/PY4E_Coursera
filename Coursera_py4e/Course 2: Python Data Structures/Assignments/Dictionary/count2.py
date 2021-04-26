@@ -9,7 +9,7 @@ for name in names:
     if name in counts:
         counts[name] += 1
     else:
-        counts[name] = 0
+        counts[name] = 1
 print(counts)
 
 print('--------------------------------------------------')
@@ -18,7 +18,7 @@ print('--------------------------------------------------')
 counts = dict()
 names = ['atanu', 'akash', 'apurba', 'sayan']
 for name in names:
-    counts[name] = counts.get(name, 0)
+    counts[name] = counts.get(name, 0) + 1
 print(counts)
 
 print('--------------------------------------------------')

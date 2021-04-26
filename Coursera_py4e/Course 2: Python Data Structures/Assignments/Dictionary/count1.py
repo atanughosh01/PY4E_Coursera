@@ -9,3 +9,14 @@ for name in names:
     else:
         counts[name] = 1
 print('The dictionary is :', counts)
+
+print('-------------------------------------------------')
+
+# program to check functionalities of dictionary DS
+counts = {'atanu':1, 'x':2, 'abc':23, 'y':100, 'z':69}
+print(list[counts])
+print(counts.keys())
+print(counts.values())
+print(counts.items())
+for name in counts:
+    print('Key =', name, 'value =', counts[name])

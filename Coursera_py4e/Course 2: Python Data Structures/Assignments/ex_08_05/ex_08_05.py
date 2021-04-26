@@ -10,7 +10,7 @@ You can download the sample data at http://www.py4e.com/code3/mbox-short.txt """
 
 fname = input("Enter file name: ")              # prompts user for file name
 # guardian/conditional statement to avoid absurd filenames
-if len(fname) < 1:                             # if absurd filename taken as input
+if len(fname) < 1:                              # if absurd filename taken as input
     fname = "mbox-short.txt"                    # considers filename as "mbox-short.txt"
 else:                                           # else if proper filename taken as input
     try:                                        # tries to open the file

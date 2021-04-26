@@ -31,6 +31,7 @@ for line in fhand:                                 # hovering through the lines 
 # increments the count of an 'hour' value if it is already present in the dict()
 # else if the 'hour' value absent in the dict(), add it to the dict()
 # '0' is the default count if no such 'hour' value is present in the dict()
+
 for key, value in sorted(hour_dict.items()):       # hovering through (key, value) pair sorted tuple of (hour, count)
     new_tuple = (int(key), value)                  # converts (str)key to (int)key & stores it in a new tuple with count
     tuple_list.append(new_tuple)                   # adds each new tuples to the tuple-list as sorted (key, value) pair

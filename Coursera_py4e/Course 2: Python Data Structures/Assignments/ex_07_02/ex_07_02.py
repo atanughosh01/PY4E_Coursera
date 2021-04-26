@@ -9,28 +9,24 @@ Match the output: Average spam confidence: 0.7507185185185187 """
 
 # Use the file name mbox-short.txt as the file name
 
-fname = input("Enter file name: ")  # prompting user for file name
-
+fname = input("Enter file name: ")          # prompting user for file name
 try:
-    fhand = open(fname)  # opening the file chosen by user
-except FileNotFoundError:  # catching exception if no such file is found
+    fhand = open(fname)                     # opening the file chosen by user
+except FileNotFoundError:                   # catching exception if no such file is found
     print('File', fname, 'is not found')
     quit()
-
-# initializing count and total
-total = 0.0
+total = 0.0                                 # initializing count and total
 count = 0
 
-for line in fhand:  # iteration variable 'line' traversing through the texts in file
-    line = line.strip()  # removing whitespaces and '/n'-s from both ends of string
-
+for line in fhand:                          # iteration variable 'line' traversing through the texts in file
+    line = line.strip()                     # removing whitespaces and '/n'-s from both ends of string
 # finding the lines starting with 'X-DSPAM-Confidence:' and finding its ending position(s)
     if line.startswith("X-DSPAM-Confidence:"):
         print(line)
-        pos = line.find(': ')  # finding ending position of the char substring
+        pos = line.find(': ')               # finding ending position of the char substring
         # slicing the numeric substring from char substring
         line = line[pos+1:].strip()
-        value = float(line)  # converting the numeric substring to float type
+        value = float(line)                 # converting the numeric substring to float type
         # calculating the average
         total += value
         count += 1

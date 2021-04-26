@@ -30,10 +30,10 @@ for word in wordList:                               # hovering through word-s in
 # else if the 'word' absent in the dict(), add it to the dict()
 # '0' is the default count if no such 'word' is present in the dict()
 
-largest_count = None                      # initialising number of appearances of the word with most appearances to NULL
-word_with_most_count = None               # initialising the word with most number of appearances to NULL
-count_list = countDict.items()            # creates a list() of the words along with their counts as (key, value) pair
-for word, count in count_list:            # hovering through the list() of word-s along with their counts
+largest_count = None                                # initialising number of appearances of the word with most appearances to NULL
+word_with_most_count = None                         # initialising the word with most number of appearances to NULL
+count_list = countDict.items()                      # creates a list() of the words along with their counts as (key, value) pair
+for word, count in count_list:                      # hovering through the list() of word-s along with their counts
     # conditional statement to check which word has the most number of appearances and how many times it appeared
     if largest_count is None or count > largest_count:
         word_with_most_count = word

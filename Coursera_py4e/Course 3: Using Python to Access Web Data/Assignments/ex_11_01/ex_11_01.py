@@ -13,7 +13,7 @@ print("\nThe numbers present in the file are :", end=" ")
 num_list = list()                                   # creates an empty list to store the numbers
 for line in hand:                                   # hovering through the lines in the file handler
     line = line.strip()                             # removes whitespaces from both ends of line
-    stuff = re.findall("[0-9]+", line)            # searches for all numbers in file and adds them to a list as string
+    stuff = re.findall("[0-9]+", line)              # searches for all numbers in file and adds them to a list as string
     for j in stuff:                                 # hovering through the list of String(number)-s
         num_list.append(float(j))                   # convert String(num) --> float(num) and add them to the empty list
         print(" ", j, end=" ")                      # displays all numbers present in the file

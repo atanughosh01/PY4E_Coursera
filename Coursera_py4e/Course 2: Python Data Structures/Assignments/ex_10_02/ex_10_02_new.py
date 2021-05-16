@@ -12,7 +12,7 @@ if len(fname) < 1:                                 # if absurd filename taken as
     fname = "mbox-short.txt"                       # considers filename as "mbox-short.txt"
 else:                                              # else if proper filename taken as input
     try:                                           # tries to open the file
-        fhand: = open(fname)                        # opens the file chosen by user
+        fhand = open(fname)                        # opens the file chosen by user
     except FileNotFoundError:                      # catches exception if no such file is found
         print('File', fname, 'is not found')       # displays error message
         quit()                                     # quits the program

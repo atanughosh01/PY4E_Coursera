@@ -4,8 +4,8 @@ You can pull the hour out from the 'From ' line by finding the time
 and then splitting the string a second time using a colon.
 From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
 Once you have accumulated the counts for each hour, print out the
-counts, sorted by hour as shown below.
-"""
+counts, sorted by hour as shown below. """
+from typing import TextIO
 
 fname = input("Enter file name: ")                 # prompts user for file name
 # guardian/conditional statement to avoid absurd filenames
@@ -13,7 +13,7 @@ if len(fname) < 1:                                 # if absurd filename taken as
     fname = "mbox-short.txt"                       # considers filename as "mbox-short.txt"
 else:                                              # else if proper filename taken as input
     try:                                           # tries to open the file
-        fhand = open(fname)                        # opens the file chosen by user
+        fhand: TextIO = open(fname)                        # opens the file chosen by user
     except FileNotFoundError:                      # catches exception if no such file is found
         print('File', fname, 'is not found')       # displays error message
         quit()                                     # quits the program

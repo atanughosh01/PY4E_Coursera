@@ -8,7 +8,7 @@ try:                                                # tries to open the file
 except FileNotFoundError:                           # catches exception if no such file is found
     print("\nError ! File not found")               # displays error message
     quit()                                          # quits the program
-print("\nThe numbers present in the file are :", end=" ")
+print("\nNumbers present in the file are :", end=" ")
 
 num_list = list()                                   # creates an empty list to store the numbers
 for line in hand:                                   # hovering through the lines in the file handler

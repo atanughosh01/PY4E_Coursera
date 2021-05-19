@@ -1,6 +1,6 @@
 """ for testing the bs4 library """
 
-import urllib.request, urllib.request, urllib.error
+import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
 

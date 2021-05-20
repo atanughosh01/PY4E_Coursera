@@ -15,7 +15,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 # enter http://py4e-data.dr-chuck.net/comments_1189778.html as URL
-url = input("Enter URL : ")                             # prompts user for the URL on which scrapping is to be done
+url = input("\nEnter URL : ")                             # prompts user for the URL on which scrapping is to be done
 html = urllib.request.urlopen(url, context=ctx).read()  # open the url (comprising of HTML) // similar to open() in file-handling
 soup = BeautifulSoup(html, "html.parser")               # defininng the method / function which parses specific HTML tag(s)
 

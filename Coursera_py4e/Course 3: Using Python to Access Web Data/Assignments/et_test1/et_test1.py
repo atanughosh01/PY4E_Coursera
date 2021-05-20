@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 data = '''<person>
 <name>Atanu Ghosh</name>
-<phone type="intl">+91-9988776655</phone>
+<phone type="intl">9988776655</phone>
 <email hide="yes"/>
 </person>
 '''

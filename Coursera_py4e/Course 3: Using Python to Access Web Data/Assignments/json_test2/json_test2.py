@@ -1,5 +1,4 @@
-""" For testing json parsing using json package.
- Enter "Ann Arbor, MI" as the test location """
+""" For testing json parsing using json package. """
 
 import urllib.request, urllib.parse, urllib.error
 import json

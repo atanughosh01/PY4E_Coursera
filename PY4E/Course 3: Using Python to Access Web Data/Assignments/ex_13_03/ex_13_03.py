@@ -1,0 +1,61 @@
+""" In this assignment you will write a Python program which will prompt for a location, contact a web service
+and ret rieve JSON for the web service and parse that data, and retrieve the first place_id from the JSON.
+A place ID is a textual identifier that uniquely identifies a place as within Google Maps. To complete this
+assignment, you should use this API endpoint that has a static subset of the Google Data: http://py4e-data.dr-chuck.net/json?
+This API uses the same parameter (address) as the Google API. This API also has no rate limit so you can test as often as
+you like. If you visit the URL with no parameters, you get "No address..." response. To call the API, you need to include
+a key= parameter and provide the address that you are requesting as the address= parameter that is properly URL encoded using the
+urllib.parse.urlencode() function as shown in http://www.py4e.com/code3/geojson.py. Make sure to check that your code is using the
+API endpoint is as shown above. You will get different results from the geojson and json endpoints so make sure you are using the
+same end point as this autograder is using."""
+
+# import necessary packages
+import urllib.request, urllib.parse, urllib.error
+import json
+import ssl
+
+api_key = False
+# If you have a Google Places API key, enter it here
+# api_key = 'AIzaSy___IDByT70'
+# https://developers.google.com/maps/documentation/geocoding/intro
+
+if api_key is False:
+    api_key = 42
+    service_url = "http://py4e-data.dr-chuck.net/json?"
+else:
+    service_url = "https://maps.googleapis.com/maps/api/geocode/json?"
+
+# Ignore SSL certificate errors
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+
+while True:
+    # Enter "South Federal University" as the address which will have a place_id of "ChIJLzabHQ7i2IgRzeZb_AgUj0Q"
+    address = input("Enter Location (Type S and press ENTER to stop) : ")
+    if len(address) < 1: break
+    if address == "s" or address == "S":
+        print("Process is being stopped....Process Stopped")
+        quit()
+
+    address_key_pair = dict()
+    address_key_pair["address"] = address
+    if api_key is not False:
+        address_key_pair["api_key"] = api_key
+    url = service_url + urllib.parse.urlencode(address_key_pair)
+
+    print("Address and Key :", address_key_pair)
+    print("Last portion of URL :", urllib.parse.urlencode(address_key_pair))
+    print("Retrieving :", url)
+
+    data = urllib.request.urlopen(url, context=ctx).read().decode()
+    print(f"Retrieved {len(data)} characters")
+
+    try:
+        info = json.loads(data)
+    except Exception as e:
+        info = None
+        print(e)
+
+    print("DATA :", data)
+    print("INFO :", info)

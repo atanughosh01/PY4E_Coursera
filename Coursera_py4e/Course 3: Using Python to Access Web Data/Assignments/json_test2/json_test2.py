@@ -23,8 +23,11 @@ ctx.verify_mode = ssl.CERT_NONE
 while True:
     print("\n---------------------------------------------")
     # Enter "Ann Arbor, MI" as the test location
-    address = input("\nEnter location: ")
+    address = input("\nEnter location (Enter S to Stop): ")
     if len(address) < 1: break
+    if address == "s" or address == "S":
+        print("Process is being stopped....Process Stopped")
+        quit()
 
     parms = dict()
     parms['address'] = address

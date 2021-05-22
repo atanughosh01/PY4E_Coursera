@@ -28,4 +28,4 @@ for item in info["comments"]:
 
 print("\nNumber List :", num_list)
 print("\nTotal numbers present in the list :", len(num_list))
-print("\nSum of Numbers :", sum(num_list), "\n")
+print(f"\nSum of these {len(num_list)} Numbers :", sum(num_list), "\n")

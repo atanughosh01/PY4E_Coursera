@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="" />
+    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="modified folder structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +70,9 @@
       <updated>1621767508341</updated>
       <workItem from="1621767540321" duration="221000" />
       <workItem from="1621768021719" duration="150000" />
-      <workItem from="1621768210076" duration="3230000" />
+      <workItem from="1621768210076" duration="3640000" />
+      <workItem from="1621780684662" duration="2355000" />
+      <workItem from="1621792727646" duration="1670000" />
     </task>
     <task id="LOCAL-00001" summary="modified workspace config files">
       <created>1621769999475</created>
@@ -91,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621770608692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modified folder structure">
+      <created>1621771834201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621771834201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="modified folder structure">
+    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <workItem from="1621768021719" duration="150000" />
       <workItem from="1621768210076" duration="3640000" />
       <workItem from="1621780684662" duration="2355000" />
-      <workItem from="1621792727646" duration="1670000" />
+      <workItem from="1621792727646" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="modified workspace config files">
       <created>1621769999475</created>
@@ -102,7 +102,42 @@
       <option name="project" value="LOCAL" />
       <updated>1621771834201</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added bs4 component">
+      <created>1621803352253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621803352253</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added bs4 component">
+      <created>1621803367569</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621803367569</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added bs4 component">
+      <created>1621803404803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621803404803</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added bs4 component">
+      <created>1621803412895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1621803412895</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added bs4 component">
+      <created>1621803425475</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1621803425475</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +147,8 @@
     <MESSAGE value="modified workspace config files" />
     <MESSAGE value="modified ex_13_03" />
     <MESSAGE value="modified folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified folder structure" />
+    <MESSAGE value="added bs4 component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bs4 component" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coursera$ex_13_03.coverage" NAME="ex_13_03 Coverage Results" MODIFIED="1621769494600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Assignments/ex_13_03" />

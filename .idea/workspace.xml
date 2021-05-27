@@ -73,7 +73,8 @@
       <workItem from="1621768210076" duration="3640000" />
       <workItem from="1621780684662" duration="2355000" />
       <workItem from="1621792727646" duration="2430000" />
-      <workItem from="1621950882767" duration="5919000" />
+      <workItem from="1621950882767" duration="6739000" />
+      <workItem from="1622039656683" duration="387000" />
     </task>
     <task id="LOCAL-00001" summary="modified workspace config files">
       <created>1621769999475</created>
@@ -180,7 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621969141015</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added bs4 components">
+      <created>1621971654510</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621971654510</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added bs4 components">
+      <created>1621971750979</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621971750979</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added bs4 components">
+      <created>1621971773124</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1621971773124</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +218,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modified workspace config files" />
@@ -207,6 +230,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added bs4 components" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Coursera$ex_13_03.coverage" NAME="ex_13_03 Coverage Results" MODIFIED="1621967809206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Assignments/ex_13_03" />
+    <SUITE FILE_PATH="coverage/Coursera$ex_13_03.coverage" NAME="ex_13_03 Coverage Results" MODIFIED="1622040030718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Assignments/ex_13_03" />
   </component>
 </project>

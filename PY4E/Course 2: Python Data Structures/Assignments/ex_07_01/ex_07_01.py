@@ -16,6 +16,6 @@ except FileNotFoundError:  # catching exception if no such file is found
     print('File', fname, 'is not found')
     quit()
 
-inp = fhand.read() # reads text from file as a whole string
-upper_case = inp.upper() # returns a copy of the string converted to uppercase
-print(upper_case) # prints the uppcase text
+inp = fhand.read()  # reads text from file as a whole string
+upper_case = inp.upper()  # returns a copy of the string converted to uppercase
+print(upper_case)  # prints the uppcase text

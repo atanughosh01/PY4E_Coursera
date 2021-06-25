@@ -36,7 +36,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.24007061" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -151,6 +151,8 @@
       <workItem from="1623815747208" duration="3642000" />
       <workItem from="1623853167494" duration="3322000" />
       <workItem from="1623901634645" duration="6271000" />
+      <workItem from="1624602438393" duration="73000" />
+      <workItem from="1624602550424" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="modified workspace config files">
       <created>1621769999475</created>
@@ -329,7 +331,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated terminal configs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Coursera$INIT_DEL.coverage" NAME="INIT_DEL Coverage Results" MODIFIED="1623917172919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/INIT_DEL" />
+    <SUITE FILE_PATH="coverage/Coursera$INIT_DEL.coverage" NAME="INIT_DEL Coverage Results" MODIFIED="1624602777215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/INIT_DEL" />
     <SUITE FILE_PATH="coverage/Coursera$ex_13_03.coverage" NAME="ex_13_03 Coverage Results" MODIFIED="1623906129585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Assignments/ex_13_03" />
   </component>
 </project>

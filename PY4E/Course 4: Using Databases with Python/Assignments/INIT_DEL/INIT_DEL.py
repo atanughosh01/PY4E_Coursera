@@ -1,7 +1,6 @@
 """Progrm to test constructor and destructor in pthon"""
 import sys
 
-
 class PartyAnimal:
     try:
         x = int(input("\nEnter Value of X : "))
@@ -13,7 +12,7 @@ class PartyAnimal:
         print("     INIT Constructor has been called\n")
 
     def party(self):
-        self.x += self.x
+        self.x += (self.x * self.x)
         print("So Far", count, "-th term : ", self.x)
 
     def __del__(self):
@@ -22,7 +21,6 @@ class PartyAnimal:
 
 print("\n================ CONSTRUCTOR =================")
 pa = PartyAnimal()
-
 
 count = 0
 try:
@@ -34,8 +32,5 @@ except ValueError as ve:
 while count <= y:
     pa.party()
     count += 1
-
-# print("\nType of pa :", type(pa))
-# print("\nDIR :", dir(pa))
 
 print("\n================ DESTRUCTOR =================")

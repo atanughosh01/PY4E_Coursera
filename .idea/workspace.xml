@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="">
+    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="modified workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02/ex_15_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02/ex_15_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02/orgdb.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02/orgdb.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Databases/sqlite1" beforeDir="false" afterPath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Databases/sqlite1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +221,11 @@
       <workItem from="1625315199937" duration="5370000" />
       <workItem from="1625334239405" duration="1797000" />
       <workItem from="1625366194110" duration="10592000" />
-      <workItem from="1625455365947" duration="4661000" />
+      <workItem from="1625455365947" duration="6325000" />
+      <workItem from="1625471220764" duration="1204000" />
+      <workItem from="1625497276793" duration="5281000" />
+      <workItem from="1625543686602" duration="3972000" />
+      <workItem from="1625580301877" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="modified workspace config files">
       <created>1621769999475</created>
@@ -444,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625462895721</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="modified workspace.xml">
+      <created>1625463580883</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1625463580883</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +495,8 @@
     <MESSAGE value="added sqlite_parse program" />
     <MESSAGE value="added ex_15_01 program" />
     <MESSAGE value="added ex_15_02 program" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ex_15_02 program" />
+    <MESSAGE value="modified workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified workspace.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coursera$INIT_DEL.coverage" NAME="INIT_DEL Coverage Results" MODIFIED="1625316034128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/INIT_DEL" />
@@ -490,6 +505,6 @@
     <SUITE FILE_PATH="coverage/Coursera$sqlite_parse.coverage" NAME="sqlite_parse Coverage Results" MODIFIED="1625378814965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/sqlite_parse" />
     <SUITE FILE_PATH="coverage/Coursera$sqlite_parse__1_.coverage" NAME="sqlite_parse (1) Coverage Results" MODIFIED="1625456802495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02" />
     <SUITE FILE_PATH="coverage/Coursera$ex_13_03.coverage" NAME="ex_13_03 Coverage Results" MODIFIED="1624646100647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Assignments/ex_13_03" />
-    <SUITE FILE_PATH="coverage/Coursera$ex_15_02.coverage" NAME="ex_15_02 Coverage Results" MODIFIED="1625462559059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02" />
+    <SUITE FILE_PATH="coverage/Coursera$ex_15_02.coverage" NAME="ex_15_02 Coverage Results" MODIFIED="1625580395268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02" />
   </component>
 </project>

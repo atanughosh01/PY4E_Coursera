@@ -72,8 +72,11 @@ con.commit()
 sqlstr = "SELECT org, count from Counts ORDER BY count DESC"
 
 # print the table in decreasing order of count of domains
+print("\nCount     Domain")
+print("------    ------")
 for row in cur.execute(sqlstr):
-    print(str(row[0]), " ", row[1])
+    print(row[1], "    ", str(row[0]))
+    # print(str(row[0]), " ", row[1])
 
 # close the file and terminate the cursor
 fhand.close()

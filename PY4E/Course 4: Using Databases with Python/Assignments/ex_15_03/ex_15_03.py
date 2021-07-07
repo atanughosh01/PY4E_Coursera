@@ -49,10 +49,15 @@ D.T.	                                 AC/DC	    Who Made Who	 Rock
 For Those About To Rock (We Salute You)	 AC/DC	    Who Made Who	 Rock
 """
 
+# import required packages
 import sqlite3
 import xml.etree.ElementTree as ET
 
+# connect with the database if already present
+# if not present create a new one having name 'trackdb.sqlite'
 con = sqlite3.connect("trackdb.sqlite")
+
+# return a cursor for the connection.
 cur = con.cursor()
 
 # Make some fresh tables using executescript()
@@ -140,4 +145,9 @@ for entry in all_dict:
         VALUES ( ?, ?, ?, ?, ?, ? )""",
                 (name, album_id, genre_id, length, rating, count))
 
+# Save (commit) the changes
+# commit operation moved outside the loop to speed up the execution
 con.commit()
+
+# terminate the cursor
+cur.close()

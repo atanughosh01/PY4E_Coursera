@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="modified trackdb.sqlite">
+    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="added roster_data.json and modified sqlite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_03/trackdb.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_03/trackdb.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_03/ex_15_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_03/ex_15_03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/INIT_DEL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.roster">
+  <component name="RunManager" selected="Python.ex_15_04">
     <configuration name="ex_15_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Coursera" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,8 +180,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.roster" />
         <item itemvalue="Python.ex_15_04" />
+        <item itemvalue="Python.roster" />
         <item itemvalue="Python.ex_15_03" />
         <item itemvalue="Python.tracks" />
         <item itemvalue="Python.ex_15_02" />
@@ -228,7 +228,7 @@
       <workItem from="1625497276793" duration="5281000" />
       <workItem from="1625543686602" duration="3972000" />
       <workItem from="1625580301877" duration="10537000" />
-      <workItem from="1625633321400" duration="4082000" />
+      <workItem from="1625633321400" duration="8347000" />
     </task>
     <task id="LOCAL-00001" summary="modified workspace config files">
       <created>1621769999475</created>
@@ -552,7 +552,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625634419667</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="modified trackdb.sqlite">
+      <created>1625647171940</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1625647171940</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added roster_data.json">
+      <created>1625647210722</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1625647210722</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added roster_data.json and modified sqlite2">
+      <created>1625647234773</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1625647234773</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,8 +592,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added textbook" />
-    <MESSAGE value="added bs4 components" />
     <MESSAGE value="updated workspace configs" />
     <MESSAGE value="updated terminal configs" />
     <MESSAGE value="updated workspace.xml configs" />
@@ -596,7 +615,9 @@
     <MESSAGE value="added trackdb.sqlite" />
     <MESSAGE value="added ex_15_03.py" />
     <MESSAGE value="modified trackdb.sqlite" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified trackdb.sqlite" />
+    <MESSAGE value="added roster_data.json" />
+    <MESSAGE value="added roster_data.json and modified sqlite2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added roster_data.json and modified sqlite2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coursera$INIT_DEL.coverage" NAME="INIT_DEL Coverage Results" MODIFIED="1625316034128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/INIT_DEL" />
@@ -606,9 +627,9 @@
     <SUITE FILE_PATH="coverage/Coursera$sqlite_parse.coverage" NAME="sqlite_parse Coverage Results" MODIFIED="1625378814965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/sqlite_parse" />
     <SUITE FILE_PATH="coverage/Coursera$sqlite_parse__1_.coverage" NAME="sqlite_parse (1) Coverage Results" MODIFIED="1625456802495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02" />
     <SUITE FILE_PATH="coverage/Coursera$tracks.coverage" NAME="tracks Coverage Results" MODIFIED="1625605947027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/Tracks" />
-    <SUITE FILE_PATH="coverage/Coursera$ex_15_04.coverage" NAME="ex_15_04 Coverage Results" MODIFIED="1625646790540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_04" />
+    <SUITE FILE_PATH="coverage/Coursera$ex_15_04.coverage" NAME="ex_15_04 Coverage Results" MODIFIED="1625661252631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_04" />
     <SUITE FILE_PATH="coverage/Coursera$ex_13_03.coverage" NAME="ex_13_03 Coverage Results" MODIFIED="1624646100647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Assignments/ex_13_03" />
     <SUITE FILE_PATH="coverage/Coursera$ex_15_02.coverage" NAME="ex_15_02 Coverage Results" MODIFIED="1625603030575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/ex_15_02" />
-    <SUITE FILE_PATH="coverage/Coursera$roster.coverage" NAME="roster Coverage Results" MODIFIED="1625646803369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/roster" />
+    <SUITE FILE_PATH="coverage/Coursera$roster.coverage" NAME="roster Coverage Results" MODIFIED="1625659313151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/roster" />
   </component>
 </project>

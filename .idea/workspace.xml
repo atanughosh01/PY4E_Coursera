@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="" />
+    <list default="true" id="dbf78a10-9f71-4920-9fe9-80a307b04462" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 1: Getting Started with Python/Python for Everybody.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 2: Python Data Structures/Python for Everybody.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Introduction to Networking.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Python For Informatics.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 3: Using Python to Access Web Data/Python for Everybody.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Python for Everybody.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Course 5: Capstone: Retrieving, Processing, and Visualizing Data with Python/Python for Everybody.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY4E/Learning_Python.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -231,28 +241,7 @@
       <workItem from="1625543686602" duration="3972000" />
       <workItem from="1625580301877" duration="10537000" />
       <workItem from="1625633321400" duration="15881000" />
-      <workItem from="1625686597411" duration="784000" />
-    </task>
-    <task id="LOCAL-00010" summary="added textbook">
-      <created>1621951182640</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1621951182640</updated>
-    </task>
-    <task id="LOCAL-00011" summary="added bs4 components">
-      <created>1621951236299</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1621951236299</updated>
-    </task>
-    <task id="LOCAL-00012" summary="added bs4 components">
-      <created>1621951249683</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1621951249683</updated>
+      <workItem from="1625686597411" duration="3166000" />
     </task>
     <task id="LOCAL-00013" summary="added bs4 components">
       <created>1621951259253</created>
@@ -576,7 +565,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625687410736</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added where.html">
+      <created>1625687436151</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1625687436151</updated>
+    </task>
+    <task id="LOCAL-00060" summary="added where.js">
+      <created>1625687447200</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1625687447201</updated>
+    </task>
+    <task id="LOCAL-00061" summary="added geoload.py and geodump.py">
+      <created>1625687470483</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1625687470483</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,9 +605,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added sqlite_parse program" />
-    <MESSAGE value="added ex_15_01 program" />
-    <MESSAGE value="added ex_15_02 program" />
     <MESSAGE value="added sqlite1" />
     <MESSAGE value="modified ex_15_02.py" />
     <MESSAGE value="modified sqlite.sqbpro" />
@@ -620,7 +627,10 @@
     <MESSAGE value="added ScreenShots" />
     <MESSAGE value="added README.txt and where.data" />
     <MESSAGE value="added geodata.sqlite" />
-    <option name="LAST_COMMIT_MESSAGE" value="added geodata.sqlite" />
+    <MESSAGE value="added where.html" />
+    <MESSAGE value="added where.js" />
+    <MESSAGE value="added geoload.py and geodump.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added geoload.py and geodump.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Coursera$INIT_DEL.coverage" NAME="INIT_DEL Coverage Results" MODIFIED="1625316034128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY4E/Course 4: Using Databases with Python/Assignments/INIT_DEL" />

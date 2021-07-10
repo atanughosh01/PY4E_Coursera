@@ -1,14 +1,12 @@
 // Write a program that can give the sine of a value between 0 and 1 (non inclusive). You will be graded based on whether
 // the program can output a value in the correct range and whether your code is well-formatted and logically correct.
 
-
 // 	# Review criteria
- 
+
 // Follow the style guidelines in the text, proper indention, one-line per statement, good choice of identifiers will
 // figure prominently in grading.
 
 // Peer grading standards will be based on documentation, good style, correctness, and elegance.
-
 
 // 	# Peer Grading
 
@@ -18,11 +16,9 @@
 // your grade. Since you've worked hard on your submission and would like your peers to do a good job of assessing your
 // work, please take your time and do a good job of assessing your peers' work in return.
 
-
 // 	# Honor Code
 
 // Please remember that you have agreed to the Honor Code, and your submission should be entirely yours.
-
 
 // 	# Style Guidelines
 
@@ -64,8 +60,7 @@
 // When writing your comments, write for your audience: the next contributor who will need to understand your code.
 // Be generous — the next one may be you!”
 
-
-#include<stdio.h>
+#include <stdio.h>
 #include <math.h>
 
 #define PI 3.14159
@@ -73,16 +68,16 @@
 /* Example for SINE Function in C Programming */
 
 int main(void)
-{	
+{
 	// initializing variables
 	double sineValue = 0.0, radianValue = 0.0, degreeValue = 0.0;
 
 	// taking value of angle in degrees as input
 	printf("\nEnter an angle in degrees : ");
 	scanf("%lf", &degreeValue);
-	
+
 	// converting value of angle from degrees to radians
-	radianValue = degreeValue * (PI/180.0);
+	radianValue = degreeValue * (PI / 180.0);
 
 	// calculating the SINE of the angle taken as input
 	sineValue = sin(radianValue);

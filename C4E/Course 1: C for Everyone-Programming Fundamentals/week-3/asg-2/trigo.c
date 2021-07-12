@@ -72,12 +72,12 @@
 #define PI 3.14159 // define value of constant PI
 
 // function to calculate sine and cosine values in the given range
-void printValues(double interval)
+void printValues(double gap)
 {
     // declaring and initializing variables
     double degValue = 0.0, radValue = 0.0;
 
-    for (degValue = 0.0; degValue <= 1.0; degValue += interval)
+    for (degValue = 0.0; degValue <= 1.0; degValue += gap)
     {
         // convert the degree value to radian value
         radValue = degValue * (PI / 180.0);

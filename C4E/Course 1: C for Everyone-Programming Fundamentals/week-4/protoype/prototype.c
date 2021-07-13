@@ -1,4 +1,4 @@
-// C program to understand the eunction prototype
+// C program to understand the function prototype
 
 #include <stdio.h>
 

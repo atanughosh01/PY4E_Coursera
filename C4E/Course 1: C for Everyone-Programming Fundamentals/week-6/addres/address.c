@@ -8,9 +8,13 @@ void f2(int *, int *);
 int main()
 {
     int a = 4, b = 5, c = 6;
+
     f1(a, b);
+    printf("\na = %d, b = %d\n", a, b);
+
     f2(&b, &c);
-    printf("%d", c - a - b);
+    printf("%d\n\n", c - a - b);
+
     return 0;
 }
 

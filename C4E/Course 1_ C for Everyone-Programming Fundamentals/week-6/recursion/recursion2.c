@@ -17,6 +17,7 @@ int main()
     int n;
     printf("\nInput = ");
     scanf("%d", &n);
+    
     printf("Output = %d\n\n", func(n));
 
     return 0;

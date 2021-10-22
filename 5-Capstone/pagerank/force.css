@@ -1,9 +1,15 @@
+body{
+  margin: 3%;
+  padding: 0;
+  text-align: center;
+}
+
 circle.node {
-  stroke: #fff;
+  stroke: #ffff;
   stroke-width: 1.5px;
 }
 
 line.link {
-  stroke: #999;
+  stroke: #9999;
   stroke-opacity: .6;
 }

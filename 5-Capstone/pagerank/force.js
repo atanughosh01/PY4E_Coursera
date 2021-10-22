@@ -67,4 +67,6 @@ function loadData(json) {
   });
 
 }
+
+// call the function
 loadData(spiderJson);

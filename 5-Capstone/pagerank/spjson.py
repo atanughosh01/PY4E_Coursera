@@ -61,8 +61,8 @@ for row in cur:
     fhand.write('{"source":'+str(MAP[row[0]]) +
                 ',"target":'+str(MAP[row[1]])+',"value":3}')
     count = count + 1
+    
 fhand.write(']};')
 fhand.close()
 cur.close()
-
 print("Open force.html in a browser to view the visualization")
